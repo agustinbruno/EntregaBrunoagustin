@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+body{
+    background-color: #202020;
+}
+
+.logo-contacto{
+    background-image: url(Photos/orquesta.jpg);
+    background-position: center;
+    width: auto;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto {
+    border-top: 2px solid white;
+    border-bottom: 2px solid white  ;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 100px;
+
+}
+@media screen and (max-width: 600px) {
+    .contacto{
+       font-size: 16vw;
+    }
+}
+
+
+.container-contacto{
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+
+/* CSS FOOTER */
+
+.letra p{
+    font-size: 35px;
+    font-family: 'Roboto';
+  }
+  
+  .letra a{
+    color: rgb(0, 0, 0);
+    line-height: 30px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+.container-copyright{
+    background-color: #202020;
+}

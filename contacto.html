@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="contacto.css" >
+    <link rel="stylesheet" href="style.css" >
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #202020;">
+        <div class="container-fluid">
+          <a class="navbar-brand " href="index.html">
+            <img class="ms-5" src="Photos/rolando.png" alt="Roland" width="120" height="24">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse ms-5" id="navbarSupportedContent">
+            <ul class="navbar-nav navbar-centro">
+              <li class="nav-item dropdown mx-5">
+                <a class="ms-5 nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Productos
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Guitarra</a></li>
+                  <li><a class="dropdown-item" href="#">Bateria</a></li>
+                  <li><a class="dropdown-item" href="#">Pianos</a></li>
+                  <li><a class="dropdown-item" href="#">Consolas DJ</a></li>
+                </ul>
+              </li>             
+              <li class="nav-item mx-5">
+                <a class="nav-link active" href="#">Artistas</a>
+              </li>
+              <li class="nav-item mx-5">
+                <a class="nav-link active" href="contacto.html">Galeria</a>
+              </li><li class="nav-item mx-5">
+                <a class="nav-link active" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+            
+            <div class="d-flex user">
+              
+              <form class="d-flex">
+                <input class="form-control me-2 border border-dark shadow-none" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success border-0 " type="submit">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-play-fill" viewBox="0 0 16 16">
+                    <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
+                  </svg>
+                </button>
+              </form>
+              <div class="btn-group dropstart">
+                <button class="boton" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle icono" viewBox="0 0 16 16">
+                  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                  <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                </svg>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <div class="formulario">
+                    <div class="mb-3">
+                      <label for="exampleDropdownFormEmail2" class="form-label">Direccion Email</label>
+                      <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com">
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleDropdownFormPassword2" class="form-label">Contraseña</label>
+                      <input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="Password">
+                    </div>
+                    <div class="mb-3">
+                      <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="dropdownCheck2">
+                        <label class="form-check-label" for="dropdownCheck2">
+                          Recordarme
+                        </label>
+                      </div>
+                    </div>
+                  <div class="medio">
+                    <button type="submit" class="btn btn-primary">Ingresar</button>
+                  </div>
+                  </div>
+                  
+                  <li><a class="dropdown-item medio" href="#">Crear Cuenta</a></li>
+                  
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+
+    <div class="conteiner logo-contacto">
+      <p class="text-white contacto">
+        CONTACTO
+      </p>
+    </div>     
+    
+   <!--Empieza Seccion  -->
+    <section class="container container-contacto">
+      <div class="row">
+      <form class="col-lg-5 col-md-12 col-sm-12 order-0 me-5 ms-lg-5 ms-sm-0" action="method">
+        <div class="d-flex mb-4">
+          <input class="form-control  me-5 border-0 shadow-none rounded-0" type="text" name="name" id="validationDefault01" placeholder="Nombre">
+          <input class="form-control border-0 shadow-none rounded-0" type="text" name="name" placeholder="Apellido">
+      </div>
+      <div class="d-flex mb-4">
+        <!-- CAMBIAR PADDING FULL ANASHE -->
+        <input class="form-control me-5 shadow-none border-0 rounded-0 py-2" type="email" placeholder="Mail">
+        <input class="form-control shadow-none border-0 rounded-0" type="tel" placeholder="Telefono">
+      </div>
+    
+      <div class="mb-3">
+        <textarea name="message" class="form-control shadow-none border-0 rounded-0" placeholder="Escribi tu comentario" rows="8"></textarea>
+      </div>
+      </form>
+      <div class="container-fluid col-lg-5 col-md-12 col-sm-12 mt-5 mt-lg-0 order-2 order-lg-0">
+        <iframe class="form-control border-0 rounded-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.992843856967!2d-58.398188884236696!3d-34.60434246503911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaea670d4e67%3A0x2198c954311ad6d9!2sDa%20Vinci!5e0!3m2!1sen!2sar!4v1624504459257!5m2!1sen!2sar"
+         width="540" height="328" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <div class="d-flex justify-content-center">
+      <input class="col-10 btn btn-outline-light order-1 order-lg-3 mt-4" type="submit" value="Submit">
+    </div>
+    </div>
+    </section>
+<!-- Empieza Footer -->
+    <footer class=" text-black pt-3 " style="background-color: #ebdfb4;">
+      <div class="container justify-content-center ">
+          <div class="row text-center text-lg-start letra">
+            <div class="col-lg-2 col-md-2  mx-auto">
+                <p class="">Compañia</p>
+               <ul class="list-inline">
+                   
+                   <li><a class="text-decoration-none" href="#">Politicas y Servicios</a></li>
+                   <li><a class="text-decoration-none" href="#">Privacidad</a></li>
+                   <li><a class="text-decoration-none" href="#">Soporte</a></li>
+                   <li><a class="text-decoration-none" href="#">Comunidad</a></li>
+                   <li><a class="text-decoration-none" href="#">Licencias</a></li>
+               </ul>
+            </div>
+            <div class="col-md-2 col-lg-2  mx-auto ">
+                <p>Productos</p>
+               <ul class="list-inline">  
+                   <li><a class="text-decoration-none" href="#">Guitarras y bajos</a></li>
+                   <li><a class="text-decoration-none" href="#">Baterias</a></li>
+                   <li><a class="text-decoration-none" href="#">Pianos</a></li>
+                   <li><a class="text-decoration-none" href="#">Equipos DJ</a></li>
+                   <li><a class="text-decoration-none" href="#">Mas...</a></li>
+               </ul>
+            </div>
+            <div class="col-md-2 col-lg-2  mx-auto ">
+                <p> Comunidad</p>
+                <ul class="list-inline">
+                    <li><a class="text-decoration-none" href="#">Produccion</a></li>
+                    <li><a class="text-decoration-none" href="#">Eventos</a></li>
+                    <li><a class="text-decoration-none" href="#">Promociones</a></li>
+                    <li><a class="text-decoration-none" href="#">Artistas</a></li>
+                    <li><a class="text-decoration-none" href="#">Novedades</a></li>
+                </ul>
+             </div>
+             <div class="col-md-2 col-lg-2 col-md-2 mx-auto">
+                <p>Contacto</p>
+                <ul class="list-inline">                 
+                    <li> <i class="fab me-2 fa-whatsapp fa-lg"></i> <a class="text-decoration-none" href="#">115648650</a></li>
+                    <li><i class="fas me-3 fa-map-marker-alt fa-lg"></i><a class="text-decoration-none" href="#">Calle falsa</a></li>
+                    <li><i class="fab me-3 fa-facebook-square fa-lg"></i><a class="text-decoration-none" href="#">Facebook</a></li>
+                    <li><i class="fab me-3 fa-instagram fa-lg"></i><a class="text-decoration-none" href="#">Instagram </a></li>
+                    <li><i class="fab me-3 fa-twitter fa-lg"></i><a class="text-decoration-none" href="#">Twitter</a></li>
+                </ul>               
+             </div>
+          </div>
+      </div>
+      <div class="container-copyright text-white d-flex py-2 ">
+        <p class="mx-auto my-auto">Esta pagina fue creada por Agustin Bruno | Mi Sitio</p>
+        <p class="mx-auto my-auto ">Copyright © 2021 Roland</p>
+     </div>
+  </footer>
+    
+  </body>
+</html>
